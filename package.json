@@ -1,6 +1,6 @@
 {
   "name": "koa",
-  "version": "3.0.0-alpha.1",
+  "version": "1.0.0",
   "publishConfig": {
     "tag": "experimental"
   },
@@ -24,7 +24,10 @@
     "build": "gen-esm-wrapper . ./dist/koa.mjs",
     "prepare": "npm run build"
   },
-  "repository": "koajs/koa",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/canberkcabbaroglu/tyt-koa.git"
+  },
   "keywords": [
     "web",
     "app",
@@ -41,7 +44,7 @@
     "content-disposition": "~0.5.2",
     "content-type": "^1.0.4",
     "cookies": "~0.8.0",
-    "debug": "^4.3.2",
+    "tyt-debug": "^1.0.0",
     "delegates": "^1.0.0",
     "destroy": "^1.0.4",
     "encodeurl": "^2.0.0",
